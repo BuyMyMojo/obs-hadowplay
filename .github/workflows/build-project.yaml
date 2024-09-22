@@ -72,7 +72,7 @@ jobs:
           fi
 
   macos-build:
-    if: false
+    if: true
     name: Build for macOS 🍏
     runs-on: macos-13
     needs: check-event
@@ -163,7 +163,7 @@ jobs:
           path: ${{ github.workspace }}/release/${{ steps.setup.outputs.pluginName }}-${{ steps.setup.outputs.pluginVersion }}-macos-universal-dSYMs.*
 
   ubuntu-build:
-    if: false
+    if: true
     name: Build for Ubuntu 🐧
     runs-on: ubuntu-22.04
     needs: check-event

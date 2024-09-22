@@ -7,6 +7,9 @@ In an attempt to move away from ShadowPlay and it's lack of customization, I tho
 This includes automatic replay buffer start/stop based on hooked captures within the active scene and the organisation of replays/recordings into folders named after the capture subject.
 
 ## Changelog
+* v2.0.4
+  * Enable Mac and Linux auto build again
+
 * v2.0.3
   * Now works with all types of window-capture and game-capture
   * Improved capture subject name retrieval
